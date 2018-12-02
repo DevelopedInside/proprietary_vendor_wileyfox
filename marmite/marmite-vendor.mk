@@ -115,8 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/wileyfox/marmite/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/wileyfox/marmite/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
-    vendor/wileyfox/marmite/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
-    vendor/wileyfox/marmite/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/wileyfox/marmite/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/wileyfox/marmite/proprietary/vendor/bin/gx_fpd:system/vendor/bin/gx_fpd \
     vendor/wileyfox/marmite/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
@@ -152,6 +150,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/wileyfox/marmite/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/wileyfox/marmite/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
+    vendor/wileyfox/marmite/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/wileyfox/marmite/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/AW87319/AW87319_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/AW87319/AW87319_Bluetooth_cal.acdb \
     vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/AW87319/AW87319_General_cal.acdb:system/vendor/etc/acdbdata/AW87319/AW87319_General_cal.acdb \
@@ -888,7 +887,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so \
-    vendor/wileyfox/marmite/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.wifi.supplicant@1.0_vendor.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:system/vendor/lib64/vendor.qti.voiceprint@1.0.so \
