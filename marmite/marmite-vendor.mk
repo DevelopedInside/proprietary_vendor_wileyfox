@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libfilterpack_facedetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfilterpack_facedetect.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
     vendor/wileyfox/marmite/proprietary/vendor/bin/gx_fpd:$(TARGET_COPY_OUT_VENDOR)/bin/gx_fpd \
+    vendor/wileyfox/marmite/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.0-service.marmite:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.0-service.marmite \
     vendor/wileyfox/marmite/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/wileyfox/marmite/proprietary/vendor/bin/wcnss_service:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_service \
     vendor/wileyfox/marmite/proprietary/vendor/etc/acdbdata/AW87319/AW87319_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/AW87319/AW87319_Bluetooth_cal.acdb \
@@ -46,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/etc/camera/s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
     vendor/wileyfox/marmite/proprietary/vendor/etc/camera/s5k3p3_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3_chromatix.xml \
     vendor/wileyfox/marmite/proprietary/vendor/etc/camera/s5k3p3_x50l_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3_x50l_chromatix.xml \
+    vendor/wileyfox/marmite/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.0-service.marmite.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.0-service.marmite.rc \
     vendor/wileyfox/marmite/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/wileyfox/marmite/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
     vendor/wileyfox/marmite/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
@@ -324,6 +326,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/hw/fingerprint.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8937.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/hw/gxfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gxfingerprint.default.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libalgoandroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalgoandroid.so \
+    vendor/wileyfox/marmite/proprietary/vendor/lib64/libbindergx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbindergx.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libfp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_client.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libfpservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice.so \
     vendor/wileyfox/marmite/proprietary/vendor/lib64/libgfcompat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgfcompat.so \
