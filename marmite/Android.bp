@@ -1,5 +1,6 @@
 /**
  * Copyright (C) 2019-2020 The LineageOS Project
+ * Copyright (C) 2019-2020 The PixelExperience Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -86,51 +87,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "datastatusnotification",
-	owner: "wileyfox",
-	apk: "proprietary/app/datastatusnotification/datastatusnotification.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "uceShimService",
-	owner: "wileyfox",
-	apk: "proprietary/app/uceShimService/uceShimService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "WfdService",
 	owner: "wileyfox",
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "ims",
-	owner: "wileyfox",
-	apk: "proprietary/priv-app/ims/ims.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "qcrilmsgtunnel",
-	owner: "wileyfox",
-	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -183,6 +142,28 @@ android_app_import {
 }
 
 android_app_import {
+	name: "imssettings",
+	owner: "wileyfox",
+	apk: "proprietary/product/app/imssettings/imssettings.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "uceShimService",
+	owner: "wileyfox",
+	apk: "proprietary/product/app/uceShimService/uceShimService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "dpmserviceapp",
 	owner: "wileyfox",
 	apk: "proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk",
@@ -194,10 +175,64 @@ android_app_import {
 	product_specific: true,
 }
 
+android_app_import {
+	name: "ims",
+	owner: "wileyfox",
+	apk: "proprietary/product/priv-app/ims/ims.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "qcrilmsgtunnel",
+	owner: "wileyfox",
+	apk: "proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+dex_import {
+	name: "QtiTelephonyServicelibrary",
+	owner: "wileyfox",
+	jars: ["proprietary/framework/QtiTelephonyServicelibrary.jar"],
+}
+
 dex_import {
 	name: "WfdCommon",
 	owner: "wileyfox",
 	jars: ["proprietary/framework/WfdCommon.jar"],
+}
+
+dex_import {
+	name: "embmslibrary",
+	owner: "wileyfox",
+	jars: ["proprietary/framework/embmslibrary.jar"],
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "wileyfox",
+	jars: ["proprietary/framework/qcrilhook.jar"],
+}
+
+dex_import {
+	name: "uimlpalibrary",
+	owner: "wileyfox",
+	jars: ["proprietary/framework/uimlpalibrary.jar"],
+}
+
+dex_import {
+	name: "uimremotesimlocklibrary",
+	owner: "wileyfox",
+	jars: ["proprietary/framework/uimremotesimlocklibrary.jar"],
 }
 
 cc_prebuilt_library_shared {
